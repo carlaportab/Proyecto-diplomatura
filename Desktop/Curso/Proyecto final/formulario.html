@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Online</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulario.css">
     <link rel="shortcut icon" href="c.jpg" type="image/x-icon">
     <!--Fuente y Fond awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -39,44 +39,36 @@
         </nav>
         <hr>
     </header>
-    <main>
-        <!--Cuerpo-->
-        <h2>Tienda Online</h2>
-        <!--Carrusel-->
-        <div class="content-all">
-            <div class="content-carrusel">
-                <figure><img src="opcion1.jpg"></figure>
-                <figure><img src="opcion2.jpg"></figure>
-                <figure><img src="opcion3.jpg"></figure>
-                <figure><img src="opcion4.jpg"></figure>
-                <figure><img src="opcion5.jpg"></figure>
-                <figure><img src="opcion6.jpg"></figure>
-            </div>
+    <main class="holder">
+        <div class="columna left">
+            <h2>Contacto</h2>
+            <form action="" method="" class="formulario">
+                <p>
+                    <label for="">Nombre</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label for="">Email</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label for="">Telefono</label>
+                    <input type="text"/>
+                </p>
+                <p>
+                    <label for="">Comentario</label>
+                    <input type="text"/>
+                </p>
+                <p class="acciones"><input type="submit" value="Enviar"></p>
+            </form>
         </div>
-        <!--Info-->
-        <div class="contenedor">
-            <div class="info1">
-                <h3>¿Quienes somos?</h3>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima voluptate voluptatibus deserunt eos quas eius nesciunt inventore, recusandae ducimus fugit ex. Minima similique adipisci mollitia dicta facilis deleniti autem!</h4>
-            </div>
-            <div class="foto1">
-                <img src="quienessomos.jpg">
-            </div>
-        </div>
-        <div class="contenedor1">
-            <div class="foto2">
-                <img src="nuestrahistoria.jpg">
-            </div>
-            <div class="info2">
-                <h5>Nuestra historia</h5>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima voluptate voluptatibus deserunt eos quas eius nesciunt inventore, recusandae ducimus fugit ex. Minima similique adipisci mollitia dicta facilis deleniti autem!</h4>
-            </div>
-        </div>
-        <div class="contenedor2">
-            <h5>Nuestra sede</h5>
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970706404!2d-58.573384362124024!3d-34.615461118227664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1629833529939!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        <div class="columna right">
+            <h2>Otras formas de contacto</h2>
+            <p>Se pueden comunicar con nosotors mediante...</p>
+            <ul>
+                <li>Teléfono: 0000-0000</li>
+                <li>Email: contacto@gmail.com</li>
+            </ul>
         </div>
     </main>
     <!--footer-->
